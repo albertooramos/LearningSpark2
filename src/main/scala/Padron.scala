@@ -43,6 +43,6 @@ object Padron extends App{
     .select(col("DESC_DISTRITO"), col("DESC_BARRIO"), col("sum(EspanolesHombres)")).show()
 
 
-
+//indicar el numero del ejercicio
 }
 j
