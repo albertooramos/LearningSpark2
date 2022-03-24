@@ -19,7 +19,7 @@ object Fire_calls extends App {
     .option("header", true)
     .csv("src/main/resources/Capitulo3/sf-fire-calls.csv")
 
-
+//Falta indicar que ejercicio esta haciendo 
 
   val fireSchema = StructType(Array(
     StructField("CallNumber", IntegerType, true),
